@@ -5,6 +5,8 @@ persist.brcm.log=none
 persist.brcm.cp_crash=none
 persist.brcm.ap_crash=none
 
+#RIL
+ro.telephony.ril_class=SamsungBCMRIL.java
 rild.libpath=/system/lib/libbrcm_ril.so
 #rild.libargs=-d /dev/ttyS0
 ro.sf.lcd_density=240
